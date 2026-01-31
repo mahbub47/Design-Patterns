@@ -1,0 +1,12 @@
+bin/
+obj/
+
+[Oo]bj/
+[Bb]in/
+
+.vs/
+*.user
+*.suo
+
+packages/
+*.nupkg
