@@ -71,19 +71,19 @@ namespace Design_Patterns.Creational_Design_Patterns
 
         public class Program
         {
-            public static void Main(string[] args)
-            {
-                PersonRegistry registry = new PersonRegistry();
-                Person person1 = new Person("ashik", "a@gmail.com", "1234");
-                Person person2 = new Person("Izhan", "i@gmail.com", "43121");
-                registry.RegisterPerson("ashik", person1);
-                var person3 = registry.Get("ashik");
-                person3.SetEmail("m@gmail.com");
+            //public static void Main(string[] args)
+            //{
+            //    PersonRegistry registry = new PersonRegistry();
+            //    Person person1 = new Person("ashik", "a@gmail.com", "1234");
+            //    Person person2 = new Person("Izhan", "i@gmail.com", "43121");
+            //    registry.RegisterPerson("ashik", person1);
+            //    var person3 = registry.Get("ashik");
+            //    person3.SetEmail("m@gmail.com");
 
-                Console.WriteLine(person1);
-                Console.WriteLine(person2);
-                Console.WriteLine(person3);
-        }
+            //    Console.WriteLine(person1);
+            //    Console.WriteLine(person2);
+            //    Console.WriteLine(person3);
+            //}
         }
     }
 }
