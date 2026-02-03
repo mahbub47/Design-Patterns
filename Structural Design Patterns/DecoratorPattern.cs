@@ -74,24 +74,24 @@ namespace Design_Patterns.Structural_Design_Patterns
 
         public class TextEditor
         {
-            public static void Main(string[] args)
-            {
-                PlainTextView text = new PlainTextView("Hello brothers!");
+            //public static void Main(string[] args)
+            //{
+            //    PlainTextView text = new PlainTextView("Hello brothers!");
 
-                Console.WriteLine();
-                Console.WriteLine("Plain Text: ");
-                text.Render();
+            //    Console.WriteLine();
+            //    Console.WriteLine("Plain Text: ");
+            //    text.Render();
 
-                Console.WriteLine();
-                Console.WriteLine("Bold Text");
-                var boldText = new BoldText(text);
-                boldText.Render();
+            //    Console.WriteLine();
+            //    Console.WriteLine("Bold Text");
+            //    var boldText = new BoldText(text);
+            //    boldText.Render();
 
-                Console.WriteLine();
-                Console.WriteLine("Italic + Underlined Text");
-                var italicUnderlinedText = new UnderlinedText(new ItalicText(text));
-                italicUnderlinedText.Render();
-            }
+            //    Console.WriteLine();
+            //    Console.WriteLine("Italic + Underlined Text");
+            //    var italicUnderlinedText = new UnderlinedText(new ItalicText(text));
+            //    italicUnderlinedText.Render();
+            //}
         }
     }
 }
