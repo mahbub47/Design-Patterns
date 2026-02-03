@@ -126,12 +126,12 @@ namespace Design_Patterns.Structural_Design_Patterns
 
         public class ECommerce
         {
-            public static void Main(string[] args)
-            {
-                IPaymentProcessor paymentProcessor = new PayPalAdapter(new PayPalPaymentProcessor());
-                CheckOut checkOut = new CheckOut(paymentProcessor);
-                checkOut.Checkout(200, "BDT");
-            }
+            //public static void Main(string[] args)
+            //{
+            //    IPaymentProcessor paymentProcessor = new PayPalAdapter(new PayPalPaymentProcessor());
+            //    CheckOut checkOut = new CheckOut(paymentProcessor);
+            //    checkOut.Checkout(200, "BDT");
+            //}
         }
     }
 }
